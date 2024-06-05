@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+      }
+      .container {
+        max-width: 1320px;
+        margin: auto;
+        /* background-color: orange; */
+      }
+      .container > div {
+        padding: 178px 0px 81.37px;
+        height: 940.63px;
+        /* background-color: lightblue; */
+        max-width: 100%;
+        margin: auto;
+      }
+      .container > div > span:nth-of-type(1) {
+        font-family: "Inter", sans-serif;
+        font-size: 29.41px;
+        font-weight: 700;
+        line-height: 45px;
+        margin-bottom: 45px;
+        /* text-align: left; */
+      }
+      .container > div > span:nth-of-type(2) {
+        font-family: "Inter", sans-serif;
+        font-size: 14.3px;
+        font-weight: 400;
+        margin-top: 16.88px;
+        margin-left: 949.87px;
+        margin-bottom: 25.8px;
+      }
+      .container > div > div > div {
+        width: 300px;
+        height: 388.31px;
+        border-radius: 12px;
+        border: 1px solid #e7e6e6;
+
+        /* background-color: pink; */
+      }
+      .container > div > div > div > p:nth-of-type(1) {
+        color: #717171;
+      }
+      .ball {
+        width: 35px;
+        position: absolute;
+        height: 35px;
+        top: 191.56px;
+        left: 244px;
+        padding: 10px 9.8px 10px 10px;
+        border-radius: 35px;
+        background: #ffffff;
+        box-shadow: 0px 10px 40px 0px #0000000d;
+      }
+      @media (width<=1264px){
+        .container>div{
+            max-width: 100%;
+            margin: auto;
+            padding-left: 14%;
+        }
+        .container>div>span:nth-of-type(2){
+            margin-left: 620px;
+        }
+      }
+      @media (width<=1092px){
+        .container>div{
+            max-width: 100%;
+            margin: auto;
+            padding-left: 15%;
+        }
+        .container>div>span:nth-of-type(2){
+            margin-left: 300px;
+        }
+      }
+      @media (width<=780px){
+        .container>div{
+            max-width: 100%;
+            margin: auto;
+            padding-left: 10%;
+        }
+        .container>div>span:nth-of-type(2){
+            margin-left: 300px;
+        }
+      }
+      @media (width<=694px){
+        .container>div{
+            max-width: 100%;
+            margin: auto;
+            padding-left: 3%;
+        }
+        .container>div>span:nth-of-type(2){
+            margin-left: 300px;
+        }
+      }
+      @media (width<=694px){
+        .container>div{
+            max-width: 100%;
+            margin: auto;
+            padding-left: 20%;
+        }
+        .container>div>span:nth-of-type(1){
+            font-size: 12px;
+        }
+        .container>div>span:nth-of-type(2){
+            font-size: 12px;
+            margin-left: 150px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <span>Find Popular Tours</span>
+        <span>See all</span>
+        <div
+          style="
+            display: flex;
+            gap: 20px;
+            margin-top: 45px;
+            flex-direction: row;
+            width: 100%;
+            flex-wrap: wrap;
+          "
+        >
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+                
+              "
+              src="images/div.tourCard__image.png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+                color: #717171;
+              "
+            >
+              Paris, France
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              Molokini and Turtle Town Snorkeling Adventure Aboard
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$189.25</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (1).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              New York, USA
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              Centipede Tour - Guided Arizona Desert Tour by ATV
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$225</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (2).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              London, UK
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              Westminster Walking Tour & Westminster Abbey Entry
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$943</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (3).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              New York, USA
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              All Inclusive Ultimate Circle Island Day Tour with Lunch
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$771</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (4).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              Paris, France
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              Space Center Houston Admission Ticket
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$189.25</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (5).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              New York, USA
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              Clear Kayak Tour of Shell Key Preserve and Tampa Bay Area
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$225</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (6).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              London, UK
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              History and Hauntings of Salem Guided Walking Tour
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$943</span
+                >
+              </div>
+            </div>
+          </div>
+          <div style="height: 412.31px; position: relative;">
+            <img
+              style="
+                height: 198.56px;
+                width: 278px;
+                border-radius: 12px;
+                margin: 11px 11px 0px 11px;
+              "
+              src="images/div.tourCard__image (7).png"
+              alt=""
+            />
+            <div class="ball"></div>
+            <p
+              style="
+                margin: 10px 171.08px 0px 31px;
+                font-family: Inter;
+                font-size: 12.29px;
+                font-weight: 400;
+                line-height: 24.38px;
+              "
+            >
+              New York, USA
+            </p>
+            <p
+              style="
+                width: 249.4px;
+                margin: 6px 29.6px 0px 21px;
+                font-family: Inter;
+                font-size: 15.88px;
+                font-weight: 500;
+                line-height: 24px;
+              "
+            >
+              Mauna Kea Summit Sunset and Stars Free Astro Photos Hilo Kona
+              Waikoloa Pick Up
+            </p>
+            <p
+              style="
+                font-family: Inter;
+                font-size: 12.49px;
+                font-weight: 400;
+                line-height: 24.38px;
+                margin: 10px 0px 0px 101px;
+                width: 54.59px;
+              "
+            >
+              4.8 (243)
+            </p>
+            <hr style="margin: 14.37px 21px 0px" />
+            <div
+              style="margin: 10.37px 13.8px 11px; display: flex; width: 258px"
+            >
+              <p
+                style="
+                  width: 60.77px;
+                  font-family: Inter;
+                  font-size: 13px;
+                  font-weight: 400;
+                  margin: 0px 0px 13px 21px;
+                "
+              >
+                4 days
+              </p>
+              <div style="width: 90.44px; margin-left: 106.78px">
+                <span
+                  style="
+                    font-family: Inter;
+                    font-size: 13px;
+                    font-weight: 400;
+                    margin: 0px 0px 13px;
+                  "
+                  >From</span
+                ><span
+                  style="
+                    font-family: Inter;
+                    font-size: 14.5px;
+                    font-weight: 500;
+                  "
+                  >$771</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
